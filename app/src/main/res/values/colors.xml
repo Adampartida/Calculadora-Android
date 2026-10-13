@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="green">#11FF00</color>
+    <color name="orange">#FF9800</color>
+    <color name="blue">#002FFF</color>
+    <color name="yellow">#F7FB00</color>
+    <color name="purple">#5500FF</color>
+    <color name="grey">#898787</color>
+    <color name="greyObs">#595959</color>
+    <color name="red">#D91F1F</color>
+    <color name="cian">#2196F3</color>
+    <color name="Obs">#2E2E2F</color>
+</resources>

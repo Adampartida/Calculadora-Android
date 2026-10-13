@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="50px"
+    android:padding="20px"
+    android:background="@color/black">
+
+
+
+    <TextView
+        android:id="@+id/txtMarca"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textStyle="bold"
+        android:textColor="@color/grey"
+        android:textSize="100px"
+        android:gravity="center_vertical|end"/>
+
+
+
+
+    <TextView
+        android:id="@+id/txtMissatges"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="0"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="100px"
+        android:gravity="center_vertical|end"/>
+
+
+    <!--Marcador pantalla -->
+    <LinearLayout
+        android:id="@+id/lytBtn0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bttnM1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/Obs"
+            android:layout_weight="1"
+            android:text="M-"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/bttnM2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/Obs"
+            android:layout_weight="1"
+            android:text="M+"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/bttnM3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/Obs"
+            android:layout_weight="1"
+            android:text="Mc"
+            android:textColor="@color/white"/>
+
+
+        <Button
+            android:id="@+id/bttnM4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/greyObs"
+            android:layout_weight="1"
+            android:text="Mr"
+            style="@style/bttnNumero"/>
+
+
+
+
+    </LinearLayout>
+
+    <!--Controlador Botons segona linea-->
+
+    <LinearLayout
+        android:id="@+id/lytBtn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/Obs"
+            android:layout_weight="1"
+            android:text="7"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/Obs"
+            android:layout_weight="1"
+            android:text="8"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/Obs"
+            android:layout_weight="1"
+            android:text="9"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/bttnFletxa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/grey"
+            android:layout_weight="1"
+            android:text="←"
+            style="@style/bttnNumero"/>
+
+        <Button
+            android:id="@+id/buttonDividir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/orange"
+            android:layout_weight="1"
+            android:text="/"
+            style="@style/bttnNumero"/>
+
+    </LinearLayout>
+
+    <!--Controlador Botons segona linea-->
+
+
+    <!--Controlador Botons segona linea-->
+
+    <LinearLayout
+        android:id="@+id/lytBtn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bttn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/Obs"
+            android:layout_weight="1"
+            android:text="4"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/bttn5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/Obs"
+            android:layout_weight="1"
+            android:text="5"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/bttn6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/Obs"
+            android:layout_weight="1"
+            android:text="6"
+            android:textColor="@color/white"/>
+
+
+        <Button
+            android:id="@+id/buttonAC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/grey"
+            android:layout_weight="1"
+            android:text="AC"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/buttonMulti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/orange"
+            android:layout_weight="1"
+            android:text="X"
+            style="@style/bttnNumero"/>
+
+
+
+    </LinearLayout>
+
+    <!--Controlador Botons segona linea-->
+
+
+    <!--Controlador Botons tercera linea-->
+
+    <LinearLayout
+        android:id="@+id/lytBtn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bttn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/Obs"
+            android:layout_weight="1"
+            android:text="1"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/bttn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/Obs"
+            android:layout_weight="1"
+            android:text="2"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/bttn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/Obs"
+            android:layout_weight="1"
+            android:text="3"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/buttonPerCent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/grey"
+            android:layout_weight="1"
+            android:text="%"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/bttnResta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/orange"
+            android:layout_weight="1"
+            android:text="-"
+            style="@style/bttnNumero"/>
+
+    </LinearLayout>
+
+    <!--Controlador Botons tercera linea-->
+
+    <!--Controlador Botons cuarta linea-->
+
+    <LinearLayout
+        android:id="@+id/lytBtn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bttnMasMenos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/Obs"
+            android:layout_weight="1"
+            android:text="±"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/bttnCero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/Obs"
+            android:text="0"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/bttnPunto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/Obs"
+            android:layout_weight="1"
+            android:text="."
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/bttnIgual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/orange"
+            android:layout_weight="1"
+            android:text="="
+            style="@style/bttnNumero"/>
+
+        <Button
+            android:id="@+id/bttnSuma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/orange"
+            android:layout_weight="1"
+            android:text="+"
+            style="@style/bttnNumero"/>
+
+    </LinearLayout>
+
+    <!--Controlador Botons cuarta linea-->
+
+
+
+</LinearLayout>
